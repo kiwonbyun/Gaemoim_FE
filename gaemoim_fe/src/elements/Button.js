@@ -41,6 +41,7 @@ const Btn = styled.button`
 
     background-color: ${(props)=> props.color=="light"?"#E6D5B8":"#FF9B26"};
 
+    transition: 0.3s;
 &:hover {
     background-color: ${(props)=> props.color=="light"?"#C2B08F":"#FF7A00"};
 }
